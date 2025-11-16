@@ -49,6 +49,6 @@ trivy fs .
 semgrep --config=auto src/
 ```
 
-## 👤 Autor
+##  Autor
 
-Tu Nombre - Noviembre 2024
+Alvaro Mendieta - Noviembre 2024
