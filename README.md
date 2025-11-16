@@ -22,7 +22,7 @@ devsecops-assignment/
 ##  Instalación
 ```bash
 # Clonar repositorio
-git clone https://github.com/TU-USUARIO/devsecops-assignment.git
+git clone https://github.com/alvaromendieta/devsecops-assignment.git
 cd devsecops-assignment
 
 # Crear entorno virtual
