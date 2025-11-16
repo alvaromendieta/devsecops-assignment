@@ -1,0 +1,69 @@
+  version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+```
+
+---
+
+#### **Archivo 14**: `reports/screenshots/.gitkeep`
+
+**Nombre del archivo:** `reports/screenshots/.gitkeep`
+
+**Contenido:** (déjalo vacío)
+
+---
+
+#### **Archivo 15**: `reports/linting/.gitkeep`
+
+**Nombre del archivo:** `reports/linting/.gitkeep`
+
+**Contenido:** (déjalo vacío)
+
+---
+
+#### **Archivo 16**: `reports/sca/.gitkeep`
+
+**Nombre del archivo:** `reports/sca/.gitkeep`
+
+**Contenido:** (déjalo vacío)
+
+---
+
+#### **Archivo 17**: `reports/advanced/.gitkeep`
+
+**Nombre del archivo:** `reports/advanced/.gitkeep`
+
+**Contenido:** (déjalo vacío)
+
+---
+
+## Verificar en GitHub
+
+Después de crear todos los archivos, tu repositorio debería verse así:
+```
+devsecops-assignment/
+├── .github/
+│   └── dependabot.yml
+├── config/
+│   ├── .flake8
+│   └── .pylintrc
+├── reports/
+│   ├── screenshots/.gitkeep
+│   ├── linting/.gitkeep
+│   ├── sca/.gitkeep
+│   └── advanced/.gitkeep
+├── src/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── database.py
+│   ├── api.py
+│   └── utils.py
+├── tests/
+│   ├── __init__.py
+│   └── test_app.py
+├── .gitignore
+├── README.md
+└── requirements.txt
